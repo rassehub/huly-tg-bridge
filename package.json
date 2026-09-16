@@ -1,0 +1,21 @@
+{
+  "name": "huly-tg-bridge",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Bidirectional bridge: Huly chunter channels <-> Telegram forum topics",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/unit.test.js"
+  },
+  "dependencies": {
+    "@hcengineering/api-client": "0.7.423",
+    "@hcengineering/chunter": "0.7.423",
+    "@hcengineering/contact": "0.7.423",
+    "@hcengineering/core": "0.7.423",
+    "ws": "8.18.2",
+    "image-size": "^2.0.0"
+  }
+}

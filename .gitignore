@@ -1,0 +1,9 @@
+node_modules/
+spike/
+error.txt
+systemd/
+systemd/huly-tg-bridge.container
+.env
+state.json
+people.json
+*.log
